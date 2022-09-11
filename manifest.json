@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Extension",
+  "description": "New Tab Extension Page!",
+  "version": "1.0",
+  "content_scripts": [
+      {
+        "matches": ["https://www.google.com/*"],
+        "css": ["all.css"]
+      },
+      {
+        "matches": ["https://www.google.com/"],
+        "js": ["google.js"]
+      },
+      {
+        "matches": ["https://www.google.com/"],
+        "css": ["google.css"]
+      }
+    ]
+}
