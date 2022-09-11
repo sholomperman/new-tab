@@ -16,5 +16,8 @@
         "matches": ["https://www.google.com/"],
         "css": ["google.css"]
       }
-    ]
+    ],
+    "chrome_url_overrides": {
+    "newtab": "newTabOverride.html"
+  }
 }
