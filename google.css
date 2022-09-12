@@ -1,5 +1,9 @@
 body {
-    background-color: darkslategray;
+    background-image: url("https://www.kali.org/blog/kali-linux-2020-4-release/images/boot-kali.gif") !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-color: black !important;
 }
 
 .item-container {
@@ -41,8 +45,8 @@ a {
     width: 60%;
 }
 
-.span {
-    color: rgb(0, 0, 0);
+.span, .MV3Tnb {
+    color: rgb(255, 255, 255);
 }
 
 

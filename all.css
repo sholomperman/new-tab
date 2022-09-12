@@ -1,11 +1,11 @@
 /* search bar */
- .RNNXgb { 
+ .RNNXgb, .search-content { 
     animation: myanimation 10s infinite;
     border-radius: 25px;
 }
 
 /* search bar icon */
-.z1asCe svg {
+.z1asCe svg, .fa-search {
     color: black;
 }
 

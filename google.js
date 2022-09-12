@@ -1,10 +1,8 @@
 const center = document.getElementsByClassName('FPdoLc lJ9FBc');
-console.log(center);
-
 const child = document.createElement('div');
+child.className = "item-container";
 
 child.innerHTML = `
-    <div class="item-container">
             <a href="https://youtube.com">
                 <div class="item">
                     <div class="iner-circle">
@@ -85,6 +83,5 @@ child.innerHTML = `
                     <span class='span'>localhost-8080</span>
                 </div>
             </a> 
-        </div>
 `;
 center[0].appendChild(child);
