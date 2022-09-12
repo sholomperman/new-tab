@@ -3,6 +3,20 @@
   "name": "New Tab Extension",
   "description": "New Tab Extension Page!",
   "version": "1.0",
+  "action": {
+    "default_icon": {
+      "16": "./icon.png",
+      "23": "./icon.png",
+      "48": "./icon.png",
+      "128": "./icon.png"
+    }
+  },
+  "icons": {
+      "16": "./icon.png",
+      "23": "./icon.png",
+      "48": "./icon.png",
+      "128": "./icon.png"
+  },
   "content_scripts": [
       {
         "matches": ["https://www.google.com/*"],

@@ -4,7 +4,7 @@ body {
 
 .item-container {
     margin-top: 50px;
-    height: 37vh;
+    height: 265px;
     display: flex;
     flex-wrap: wrap;
 }
