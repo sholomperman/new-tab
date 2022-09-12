@@ -45,8 +45,8 @@ a {
     width: 60%;
 }
 
-.span, .MV3Tnb {
-    color: rgb(255, 255, 255);
+.span, a.MV3Tnb, a.gb_d {
+    color: rgb(255, 255, 255) !important;
 }
 
 
